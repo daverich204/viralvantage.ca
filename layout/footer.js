@@ -34,10 +34,10 @@ function Footer() {
                   <h5 className="footer-title">Our links</h5>
                   <ul>
                     <li><Link href="#"><a>Home</a></Link></li>
-                    <li><Link href="#"><a>About Us</a></Link></li>
-                    <li><Link href="#"><a>Services</a></Link></li>
-                    <li><Link href="#"><a>Team</a></Link></li>
-                    <li><Link href="#"><a>Blog</a></Link></li>
+                    <li><Link href="/about-us"><a>About Us</a></Link></li>
+                    <li><Link href="/services"><a>Services</a></Link></li>
+                    {/*<li><Link href="/team"><a>Team</a></Link></li>*/}
+                    {/*<li><Link href="/blog"><a>Blog</a></Link></li>*/}
                   </ul>
                 </div>
               </div>
@@ -59,11 +59,11 @@ function Footer() {
                 <div className="widget widget_services style-1">
                   <h5 className="footer-title">Other links</h5>
                   <ul>
-                    <li><Link href="#"><a>FAQ</a></Link></li>
-                    <li><Link href="#"><a>Portfolio</a></Link></li>
-                    <li><Link href="#"><a>Privacy Policy</a></Link></li>
-                    <li><Link href="#"><a>Terms & Conditions</a></Link></li>
-                    <li><Link href="#"><a>Support </a></Link></li>
+                    <li><Link href="/faq"><a>FAQ</a></Link></li>
+                    {/*<li><Link href="#"><a>Portfolio</a></Link></li>*/}
+                    {/*<li><Link href="#"><a>Privacy Policy</a></Link></li>*/}
+                    {/*<li><Link href="#"><a>Terms & Conditions</a></Link></li>*/}
+                    {/*<li><Link href="#"><a>Support </a></Link></li>*/}
                   </ul>
                 </div>
               </div>
