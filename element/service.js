@@ -57,11 +57,10 @@ function Service() {
             </div>
           </div>
           <div className="section-head style-3 text-center mb-4">
-            <h3 className="title">and more...</h3>
             <Link href="/services">
-              <a data-wow-delay="4s" data-wow-duration="3s"
+              <a data-wow-delay="2s" data-wow-duration="3s"
                  className="wow fadeInUp  btn btn-corner gradient btn-primary">
-                All Services
+                View all services
               </a>
             </Link>
           </div>
