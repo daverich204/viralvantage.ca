@@ -3,7 +3,7 @@
 function Features() {
 	return (
 		<>
-			{/* <!-- Our Fetures --> */}
+			{/* <!-- Our Features --> */}
 			<section className="content-inner bg-white">
 				<div className="container">
 					<div className="section-head style-3 text-center">
@@ -19,8 +19,8 @@ function Features() {
 											<a href="#" className="icon-cell text-white"><i className="flaticon-idea"></i></a>
 										</div>
 										<div className="icon-content">
-											<h4 className="dlab-tilte text-capitalize">Idea & Analysis</h4>
-											<p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+											<h4 className="dlab-tilte text-capitalize">Expertise</h4>
+											<p>With decades of experience, we pride ourselves in discovering new niches and finding competitive advantages for our clients.</p>
 										</div>
 									</div>
 								</div>
@@ -30,8 +30,8 @@ function Features() {
 											<a href="#" className="icon-cell text-white"><i className="flaticon-vector"></i></a>
 										</div>
 										<div className="icon-content">
-											<h4 className="dlab-tilte text-capitalize">Designing</h4>
-											<p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+											<h4 className="dlab-tilte text-capitalize">Results Driven</h4>
+											<p>We have a track record of delivering measurable results for our clients, such as increased engagement, and sales.</p>
 										</div>
 									</div>
 								</div>
@@ -50,8 +50,8 @@ function Features() {
 											<a href="#" className="icon-cell text-white"><i className="flaticon-coding"></i></a>
 										</div>
 										<div className="icon-content">
-											<h4 className="dlab-tilte text-capitalize">Development</h4>
-											<p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+											<h4 className="dlab-tilte text-capitalize">Personalized</h4>
+											<p>We take a personal approach to each of our clients social media strategies, tailoring solutions to fit you and your needs and goals.</p>
 										</div>
 									</div>
 								</div>
@@ -61,8 +61,8 @@ function Features() {
 											<a href="#" className="icon-cell text-white"><i className="flaticon-rocket"></i></a>
 										</div>
 										<div className="icon-content">
-											<h4 className="dlab-tilte text-capitalize">Testing & Lunching</h4>
-											<p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+											<h4 className="dlab-tilte text-capitalize">Innovative</h4>
+											<p>We pride ourselves on not only staying modern, but also being innovative, positioning us as a cutting edge agency.</p>
 										</div>
 									</div>
 								</div>

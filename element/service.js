@@ -22,8 +22,7 @@ function Service() {
                 </div>
                 <div className="icon-content">
                   <h4 className="dlab-title m-b15">Social Media Management</h4>
-                  <p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo
-                    sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
+                  <p className="m-b20">We can manage social media accounts on your behalf, creating and publishing content, engaging with followers, and monitoring performance.</p>
                   <Link href="/services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
                 </div>
               </div>
@@ -37,8 +36,7 @@ function Service() {
                 </div>
                 <div className="icon-content">
                   <h4 className="dlab-title m-b15">Online Advertising</h4>
-                  <p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo
-                    sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
+                  <p className="m-b20">We can create and run social media advertising campaigns, including sponsored posts, promoted tweets, and paid search ads</p>
                   <Link href="/services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
                 </div>
               </div>
@@ -52,8 +50,7 @@ function Service() {
                 </div>
                 <div className="icon-content">
                   <h4 className="dlab-title m-b15">Analytics and Reporting</h4>
-                  <p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo
-                    sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
+                  <p className="m-b20">We can track and report on social media performance providing insights into what works and what doesn't.</p>
                   <Link href="/services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
                 </div>
               </div>
