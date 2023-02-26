@@ -1,12 +1,12 @@
-import Footer2 from "../layout/footer-2";
-import Header2 from "../layout/header-2";
+import Footer from "../layout/footer";
+import Header from "../layout/header";
 import Link from 'next/link';
 
 
 function BlogGrid2() {
   return (
    <>
-	<Header2/>
+	<Header/>
       <div className="page-content bg-white">
 		{/* <!-- Banner  --> */}
 		<div className="dlab-bnr-inr style-2 overlay-gradient-dark" style={{"backgroundImage":"url(images/banner/bnr1.jpg)"}}>
@@ -197,7 +197,7 @@ function BlogGrid2() {
 		</section>
 		
 	</div>
-	<Footer2/>
+	<Footer/>
     </>
   )
 }
