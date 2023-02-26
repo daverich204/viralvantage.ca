@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import { useEffect, useState } from "react";
 //import Slider from "react-rangeslider";
 //import "react-rangeslider/lib/index.css";
@@ -91,6 +92,20 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-YHL4C2K41M" />
+      <Script
+        id='google-analytics'
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-YHL4C2K41M');
+          `,
+        }}
+      />
 		  <Head>
 			  <title>Viral Vantage - Social Media Marketing Agency</title>
 			  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
