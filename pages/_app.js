@@ -110,6 +110,18 @@ function MyApp({ Component, pageProps }) {
 			  <title>Viral Vantage - Social Media Marketing Agency</title>
 			  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"/>
+        <meta property="og:url" content="https://www.viralvantage.ca" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Social Media Preview Working?"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          property="og:description"
+          content="Viral Vantage. A Social Media Marketing Agency"
+        />
+        <meta property="og:image" content={"https://www.viralvantage.ca/images/website_preview.png"} />
       </Head>
       <div className="page-wraper">
         <Component {...pageProps} />
