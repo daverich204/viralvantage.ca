@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Quote from "../element/quote";
+import GetInTouch from "../element/get-in-touch";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
 
@@ -39,7 +40,7 @@ function ContactUs1() {
         {/* <!-- Banner End --> */}
 
         {/* <!-- Get A Quote --> */}
-        <Quote/>
+        <GetInTouch />
       </div>
       <Footer />
     </>
