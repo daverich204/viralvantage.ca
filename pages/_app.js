@@ -129,6 +129,7 @@ function MyApp({ Component, pageProps }) {
       
       <a href="#top">
         <button
+          aria-label={"Return to top of page"}
           className="scroltop icon-up"
           type="button"
           style={{ display: "inline-block" }}

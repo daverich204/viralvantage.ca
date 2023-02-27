@@ -26,15 +26,17 @@ function Header() {
               <div className="logo-header mostion logo-dark">
                 <Link href="/">
                   <a>
-                    <img className="custom-logo-white" src="images/logo-white.png" alt=""/>
-                    <img className="custom-logo" src="images/logo-3.png" alt=""/>
+                    <img className="custom-logo-white" aria-label={"Viral Vantage logo"} src="images/logo-white.png" alt=""/>
+                    <img className="custom-logo" aria-label={"Viral Vantage logo"} src="images/logo-3.png" alt=""/>
                   </a>
                 </Link>
 
               </div>
               {/* <!-- Nav Toggle Button --> */}
-              <button className={`navbar-toggler collapsed navicon justify-content-end ${show ? "open" : ""}`}
-                      onClick={() => setShow(!show)}>
+              <button
+                  aria-label={"Navigation Menu"}
+                  className={`navbar-toggler collapsed navicon justify-content-end ${show ? "open" : ""}`}
+                  onClick={() => setShow(!show)}>
                 <span></span>
                 <span></span>
                 <span></span>
