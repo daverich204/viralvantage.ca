@@ -17,14 +17,13 @@ function AboutUs() {
                 <div className="dlab-separator style-2 bg-primary"></div>
               </div>
               <p>
-                In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada
-                magna. Nulla vel maximus risus. Donec volutpat metus lacinia
-                risus accumsan, ac bibendum libero efficitur. Pellentesque nec
-                nisi sit amet magna tempus hendrerit ut a odio.
+                We offer exceptional customer service, provide high quality content,
+                leverage data and analytics to inform our clients and dictate strategy and tactics.
+                We pride ourselves on staying up to date with the latest trends and changes.
               </p>
               <p className="m-b30">
-                Praesent rhoncus commodo tortor, id pulvinar nisl blandit at.
-                Nulla facilisi. Quisque turpis ante, vehicula condimentum arcu.
+                By executing these practices, and delivering exceptional results for our clients,
+                we are focused on establishing Viral Vantage as leaders in the SMMA industry.
               </p>
               <Counter />
             </div>
