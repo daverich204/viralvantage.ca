@@ -114,7 +114,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Social Media Preview Working?"
+          content="Viral Vantage Agency"
         />
         <meta name="twitter:card" content="summary" />
         <meta
